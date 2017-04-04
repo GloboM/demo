@@ -8,6 +8,10 @@ app.get('/',(req,res) =>{
     res.send('done');
 })
 
+app.get('/page1',(req,res) =>{
+    res.send("page1");
+})
+
 app.listen(port,() => {
     console.log(`app is listening on port ${port}`)
 })
