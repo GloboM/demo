@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/miladi7sec/demo/issues"
   },
-  "homepage": "https://github.com/miladi7sec/demo#readme"
+  "homepage": "https://github.com/miladi7sec/demo#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
